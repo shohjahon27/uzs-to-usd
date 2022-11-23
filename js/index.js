@@ -19,7 +19,7 @@ uzs.addEventListener("input", (e) => {
 
   if (usd.value == "NaN") {
     alert("please enter a number only!");
-  } else if ( usd.value == "" ) {
-      return alert("SORRY, server is not responding");
+  } else if ( uzs.value == 0 ) {
+      return alert("SORRY, you cannot enter a just 0 itself or leave the field empty!");
   }
 });
